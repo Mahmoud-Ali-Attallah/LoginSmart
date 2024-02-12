@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/signin.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/all.min.css">
+
+</head>
+<body>
+    
+    <header class="content bg-dark d-flex flex-row justify-content-center align-items-center g-4 position-relative">
+        <div class="shadow-lg form-group w-75 d-flex flex-column justify-content-center align-items-center px-4">
+            <h2 class=" my-4 text-white">Smart Login System</h2>
+            <input id="name" class=" my-4 form-control" type="text" name="Your Name" placeholder="Enter Your Name">
+            <input id="email" class=" my-4 form-control" type="email" name="Your Email" placeholder="Enter Your Email">
+            <input id="password" class=" my-4 form-control" type="password" name="Password" placeholder="Enter Password">
+            <button id="button" class=" my-4 btn btn-danger w-100">Sign up</button>
+            <p class=" my-4 text-white">You have an account? <a href="../index.html">Sign in</a></p>
+        </div>
+        <div class="layer_invalied d-none flex-column justify-content-around align-items-center position-absolute h-25 w-25 bg-white">
+          <i class="fa-regular fa-circle-xmark fs-1 text-black close"></i>
+            <p>Email is Founded Already</p>
+        </div>
+    </header>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/singin.js"></script>
+</body>
+</html>
